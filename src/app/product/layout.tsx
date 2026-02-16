@@ -1,5 +1,5 @@
 
-export default function RootLayout({
+export default function ProductIdLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
@@ -7,9 +7,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <p>This is Header!</p>
         {children}
-        <p>This is Footer</p>
+
+        <p>This is a nested layout.</p>
       </body>
     </html>
   );
